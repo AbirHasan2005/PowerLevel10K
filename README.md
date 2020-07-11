@@ -1,5 +1,5 @@
 # PowerLevel10K v1.4-BETA
-PowerLevel10K with zsh shell for Termux. Most customizable Termux shell theme. Stylish Shell. \n
+PowerLevel10K with zsh shell for Termux. Most customizable Termux shell theme. Stylish Shell. 
 Developer @AbirHasan2005
 
 ## How to use(commands):
