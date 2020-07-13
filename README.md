@@ -50,3 +50,5 @@ bash setup.sh
 ## This is in development!
 If you find any problem in this script than please report to my
 ### Telegram Group: http://t.me/linux_repo
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/AbirHasan2005?locale.x=en_US)
