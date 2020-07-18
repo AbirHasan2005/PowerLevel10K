@@ -1,5 +1,5 @@
 #!/bin/bash
-# Update Script for PowerLevel10K v1.4-BETA
+# Update Script for PowerLevel10K v2.1-Stable
 # Script created by @AbirHasan2005
 
 
