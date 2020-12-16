@@ -27,11 +27,11 @@ if [[ $optiona == 2 || $optiona == 02 ]]; then
 printf "\n\n\e[1;92mThis script will not work if you setuped powerlevel10k & oh-my-zsh before ...\n\e[0m"
 sleep 5
 apt update && apt upgrade -y # Update Termux
-pkg install nano git zsh -y # Install important packages
+apt install nano git zsh -y # Install important packages
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh # Clone from GitHub
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc # Copy
-chsh -s zsh # ZSH Start
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k # Clone from GitHub
+chsh -s zsh # ZSH Start
 printf "\n\e[1;96mPlease Set \e[0mZSH_THEME\e[0;92m=\e[1;93m"powerlevel10k/powerlevel10k" \e[1;96min \e[1;94m~/.zshrc\e[1;96m ...\n\e[0m"
 sleep 5
 printf "\n\n\e[1;92mDo you want to open \e[1;94m.zshrc\e[1;92m file now for edit?\n"
